@@ -13,11 +13,17 @@ def wait_for_reel():
 def wait_for_reload():
     pyautogui.sleep(10) # placeholder for real code
 
-
-
+# to-do list
+# make the wait functions optimal (image recognition)
+# ensure all video formats, displays (light mode), OS's? are supported
+# assess which prerequisite packages are required
+# write a goated README.md
+# add option to not have reels unliked
+# add an option to keep friends reels liked
+# explore ways to make the bot overall faster
+#  - more tabs running
 
 for i in range(2000):
-
 
     wait_for_reload()
 
